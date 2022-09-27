@@ -27,7 +27,7 @@ html, body{
   height: wrap;
   background:rgba(208, 216, 219, 0.4) ;  
   color: #222;
-  padding: 20px;
+  padding: 30px;
   box-shadow: 3px 6px 8px 2px rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   position: relative;
@@ -78,23 +78,20 @@ a {
   color: black;
 }
 
-.contact_icon {
+.contact_icon{
   display: flex;
   gap: 30px;
   justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-
 }
 
 .wave {
-  bottom: 0;
+  margin-top: auto;
   width: 100%;
-  position: absolute;
+  position: relative;
 }
 
 footer {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   color: #ffffff;
 
