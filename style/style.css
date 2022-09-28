@@ -23,7 +23,7 @@ html, body{
 
 .card-item {
   text-align: center;
-  width: 25%;
+  width: 22%;
   background:rgba(208, 216, 219, 0.4) ;  
   color: #222;
   padding: 30px;
@@ -79,14 +79,15 @@ a {
 
 .contact_icon{
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 40px;
   justify-content: center;
 }
 
 .wave {
   position: relative;
-  width: auto;
-  height: 200px;
+  width: 100%;
+  height: 10px;
 
 }
 
@@ -119,7 +120,6 @@ footer {
 
 .wave {
   width: auto;
-  height: wrap;
   position: relative;
 }
 
